@@ -1,0 +1,55 @@
+.position {
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background-color: slategray;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+div{
+  display:flex;
+  justify-content: space-between;
+ 
+}
+
+.izquierda{
+  padding-left: 5px;
+  border: black;
+  border-style: solid;
+}
+
+.derecha{
+  padding-right: 5px;
+  padding-left: 5px;
+  border: black;
+  border-style: solid;
+}
+
+h2{
+  text-align: center;
+  padding-top: 5%;
+}
+
+iframe{
+  padding-left: 32%;
+}
+
+.style-footer { 
+  height: 50px; 
+  width:100%; 
+  position:absolute; 
+  bottom:0; 
+  left:0; 
+  background-color:black;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+}

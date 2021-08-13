@@ -1,0 +1,49 @@
+.position {
+  display: flex;
+  justify-content: center;
+}
+
+
+  .titulo{
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 6cm;
+  }
+  h1{
+    text-align: right;
+    padding: 6px;
+    margin-right: 4cm;
+  }
+
+  img{
+    width: 250px;
+    transition-property:all;
+    transition-duration: 1s;
+  }     /*transition*/
+ 
+  img:hover{
+    width: 400px;
+  }   /*transtion */
+
+.grid {
+  display: grid;
+  grid-template-columns: 25% 25% ;
+}
+
+body{
+  background-color: slategray;
+}
+
+.style-footer { 
+  height: 50px; 
+  width:100%; 
+  position:absolute; 
+  bottom:0; 
+  left:0; 
+  background-color:black;
+}
+
+h4{
+  text-align: center;
+color: white;
+}
